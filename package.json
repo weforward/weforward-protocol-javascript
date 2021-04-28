@@ -1,0 +1,27 @@
+{
+	"name": "weforward-protocol",
+	"version": "1.0.3",
+	"description": "weforward协议",
+	"keywords": ["weforward", "云原生", "微服务"],
+	"main": "index.js",
+	"scripts": {
+		"build": "webpack --mode production",
+		"login-self": "npm login --registry https://git.navboy.com/repository/npm/",
+		"publish-self": "npm publish --registry https://git.navboy.com/repository/npm/",
+		"login-center": "npm login --registry https://registry.npmjs.org/",
+		"publish-center": "npm publish --registry https://registry.npmjs.org/",
+		"start": "webpack-dev-server --open"
+	},
+	"dependencies": {
+		"axios": "^0.18.1"
+	},
+	"author": "wf@weforward.cn",
+	"license": "MIT",
+	"devDependencies": {
+		"@babel/core": "^7.9.0",
+		"@babel/preset-env": "^7.9.0",
+		"babel-loader": "^8.1.0",
+		"babel-polyfill": "^6.26.0"
+	}
+
+}
