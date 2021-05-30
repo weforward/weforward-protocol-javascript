@@ -1,6 +1,6 @@
 {
 	"name": "weforward-protocol",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "weforward协议",
 	"keywords": ["weforward", "云原生", "微服务"],
 	"main": "index.js",
